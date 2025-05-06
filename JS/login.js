@@ -1,3 +1,4 @@
+
 function init() {
 
     const form = document.querySelector("form");
@@ -17,8 +18,12 @@ function authentification(user) {
             return false;
         }
     else if (user.password == localUser.password)
-        return true;
-
+        {
+            sessionStorage.clear();
+            sessionStorage.setItem('user',JSON.stringify(localUser));
+            return true;
+        }
+        
     else if (user.password !== localUser.password)
         {
             alert("Mot de passe incorrecte, veuillez resaisir !");
@@ -38,7 +43,6 @@ function login(event) {
     if(authentification(user)) {
         console.log("login validé !");
         document.location.href="http://127.0.0.1:5500/profile.html";
-        return true;
     }
     else 
     console.log("On ne peut pas vous laisser vous connecter, tant pis !");
