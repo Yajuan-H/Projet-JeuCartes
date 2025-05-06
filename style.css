@@ -1,0 +1,17 @@
+img {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    font-size: large;
+}

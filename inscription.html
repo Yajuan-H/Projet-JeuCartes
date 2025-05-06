@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/inscription.js" defer></script>
+</head>
+<body>
+    <h1>ENI - Memory - s'inscrire</h1>
+    <legend>Inscription</legend>
+    <br>
+    
+    <form>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" autofocus required placeholder="SMITH" title="Saisissez votre nom (3 caractères minimum.)">  
+        <br>
+        <br>
+
+        <label for="email">Email :</label>
+        <input type="email" 
+        id="email"
+        name="email" required placeholder="john.smith@mail.com"
+        title="Saisissez votre adresse email">
+        <br>
+        <br>
+
+        <label for="mdp">Mot de passe:</label>
+        <input type="password" 
+            id="mdp" 
+            name="mdp" required
+            placeholder="Saisissez un mot de passe de minimum 6 caractères. 
+             Il doit posséder un symbole, un chiffre et des lettres.">
+        <br>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
