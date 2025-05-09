@@ -1,10 +1,16 @@
 .imgaccueil {
-    width: 80%;
+    width: 60%;
+    height: 60%;
 }
 
 h1 {
     text-align: center;
     color: cornflowerblue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -17,17 +23,69 @@ nav {
 }
 
 img {
-    width: 14%;
-    height: 14%;
-    margin: 1%;
-}
-
-.imageZone {
-    display: flex;
+    flex: 1;
+    width: 7rem;
+    height: 7rem;
     align-items:justify;
-    align-content: space-between;
+    margin: 1%;
+    border: 0.1rem solid;
 }
 
-article {
-    text-align: center;
+#imageZone {
+    width: 58%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 60%;
+    height: 60%;
+    align-self:center;
+    padding-left: 15rem;
+}
+
+input {
+    width: 100%;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+legend {
+    font-size:x-large;
+    padding-left: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.login {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+button {
+    margin-right: 1rem;
+}
+
+.profile {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.champ {
+    margin-left: 10rem;
+    font-size: larger;
+}
+
+.titre {
+    font-style: italic;
+    font-size: larger;
+}
+
+.lien {
+    margin-right: 2rem;
 }
