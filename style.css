@@ -1,4 +1,4 @@
-img {
+.imgaccueil {
     width: 80%;
 }
 
@@ -14,4 +14,20 @@ header {
 nav {
     text-align: right;
     font-size: large;
+}
+
+img {
+    width: 14%;
+    height: 14%;
+    margin: 1%;
+}
+
+.imageZone {
+    display: flex;
+    align-items:justify;
+    align-content: space-between;
+}
+
+article {
+    text-align: center;
 }
